@@ -1,0 +1,7 @@
+Send("gunner")
+Send("{TAB}")
+Send("123")
+Send("{TAB}")
+Send("{TAB}")
+Send("{ENTER}")
+Sleep (3000)

@@ -1,0 +1,5 @@
+Send("admin")
+Send("{TAB}")
+Send("admin")
+Send("{ENTER}")
+Sleep (3000)
