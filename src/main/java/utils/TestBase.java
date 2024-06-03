@@ -21,7 +21,7 @@ public class TestBase {
     public TestBase() {
         try {
             properties = new Properties();
-            FileInputStream file = new FileInputStream("C:\\Users\\Vladimir\\IdeaProjects\\Donatix_Third_Assignment\\src\\main\\java\\utils\\config.properties");
+            FileInputStream file = new FileInputStream("src/main/java/utils/config.properties");
             properties.load(file);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
